@@ -1,5 +1,5 @@
 
-resource "azurerm_resource_group" "myregiswindowappserverrg" {
+resource "azurerm_resource_group" "konanwindowappserverrg" {
   name     = "mylearningresourcegrouptest"
   location = "canadacentral"
 }
