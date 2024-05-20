@@ -14,8 +14,8 @@ resource "azurerm_windows_web_app" "example" {
 
   name                = each.value.name
   resource_group_name = azurerm_resource_group.konansourcegrouptest.name
-  service_plan_id     = azurerm_service_plan.svregiswinserverappexample[each.key].id
-  location            = azurerm_service_plan.svregiswinserverappexample[each.key].location
+  service_plan_id     = azurerm_service_plan.konanserverappexample[each.key].id
+  location            = azurerm_service_plan.konanserverappexample[each.key].location
 
   site_config {}
 }
