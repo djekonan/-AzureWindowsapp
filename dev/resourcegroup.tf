@@ -1,5 +1,5 @@
 
 resource "azurerm_resource_group" "konanwindowappserverrg" {
-  name     = "mylearningresourcegrouptest"
+  name     = "konansourcegrouptest"
   location = "canadacentral"
 }
