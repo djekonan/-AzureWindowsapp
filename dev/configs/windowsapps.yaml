@@ -1,0 +1,10 @@
+listofwindowapp:
+  - name: firstwindowapp    
+    os_type: Window
+    sku_name: Dasv5
+  - name: secondwindowapp    
+    os_type: Window
+    sku_name: Fsv2
+  - name: thirdwindowapp    
+    os_type: Window
+    sku_name: FXmds
