@@ -2,7 +2,7 @@
 resource "azurerm_service_plan" "konanserverappexample" {
   for_each            = {for windowappserver in local.window_app_list : "${windowappserver.name}" => windowappserver}
   name                = each.value.name
-  resource_group_name = azurerm_resource_group.konanwindowappserverrg.name
+  resource_group_name = azurerm_resource_group.konanwindowappserver.name
   location            = azurerm_resource_group.myregiswindowappserverrg.location
   sku_name            = "P1v2"
   os_type             = "Windows"
